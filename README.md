@@ -1,62 +1,34 @@
-# Simple Template and Easy Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript
-
-🔥 Simple Template and Easy Starter for Next.js 13+, Tailwind CSS 3.3 and TypeScript 🎉 Inspired by "[Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)".
-
- I love [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate) project, but there are some libraries I don't want to use, so I decided it was heavy and difficult to use. (Thanks to [Remi Wg](https://github.com/ixartz))
-
-So I made a simpler and easier Next.js template for beginners. It's a project with only Next.js, Tailwind CSS and TypeScript. I hope you can use it well🙇🏻‍♂️
-
-Clone this project and use it to create your own [Next.js](https://nextjs.org/) project.
-
-## Features
-**"Developer experience first"**
-- ⚡ Next.js with App Router and Page Router support
-- 🔥 Type checking TypeScript
-- 💎 Integrate with Tailwind CSS
-- ✅ Strict Mode for TypeScript and React 18
-
-## Requirements
-- Node.js 16+ and npm
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-Run the following command on your local environment:
-```
-git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project-name
-cd my-project-name
-npm install
-```
-Then, you can run locally in development mode with live reload:
-```
+
+First, run the development server:
+
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
-Open [http://localhost:3000](http://localhost:3000) with your favorite browser to see your project.
 
-## Project Structure
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
-.
-├── README.md                       # README file
-├── __mocks__                       # Mocks for testing
-├── .github                         # GitHub folder
-├── .husky                          # Husky configuration
-├── .storybook                      # Storybook folder
-├── .vscode                         # VSCode configuration
-├── cypress                         # Cypress folder
-├── migrations                      # Database migrations
-├── public                          # Public assets folder
-├── scripts                         # Scripts folder
-├── src
-│   ├── app                         # Next JS App (App Router)
-│   ├── components                  # React components
-│   ├── layouts                     # Layouts components
-│   ├── libs                        # 3rd party libraries
-│   ├── models                      # Database models
-│   ├── pages                       # Next JS Pages (page router)
-│   ├── pages.test                  # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
-│   ├── styles                      # Styles folder
-│   ├── templates                   # Templates folder
-│   ├── utils                       # Utilities folder
-│   └── validations                 # Validation schemas
-├── tailwind.config.js              # Tailwind CSS configuration
-└── tsconfig.json                   # TypeScript configuration
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

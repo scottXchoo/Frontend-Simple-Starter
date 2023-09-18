@@ -45,17 +45,17 @@ Open [http://localhost:3000](http://localhost:3000) with your favorite browser t
 
 ```
 .
-├── README.md                       # README file
-├── public                          # Public assets folder
+├── README.md                     # README file
+├── public                        # Public assets folder
 ├── src
-│   ├── app                         # Next JS App (App Router)
-│   ├── components                  # React components
-│   ├── libs                        # 3rd party libraries
-│   ├── pages                       # Next JS Pages (page router)
-│   ├── styles                      # Styles folder
-│   └── utils                 # Utilities folder
-├── tailwind.config.js              # Tailwind CSS configuration
-└── tsconfig.json                   # TypeScript configuration
+│   ├── app                       # Next JS App (App Router)
+│   ├── components                # React components
+│   ├── libs                      # 3rd party libraries
+│   ├── pages                     # Next JS Pages (page router)
+│   ├── styles                    # Styles folder
+│   └── utils                     # Utilities folder
+├── tailwind.config.js            # Tailwind CSS configuration
+└── tsconfig.json                 # TypeScript configuration
 ```
 
 ## Contributions

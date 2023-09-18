@@ -28,7 +28,7 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org/) 
 Run the following command on your local environment:
 
 ```
-git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project-name
+git clone https://github.com/scottXchoo/Simple_Starter_for_NextJS.git my-project-name
 cd my-project-name
 npm install
 ```

@@ -1,6 +1,6 @@
-# Simple Template and Easy Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript
+# Simple Starter for NextJS 13+, Tailwind CSS 3.3 and TypeScript
 
-🔥 Simple Template and Easy Starter for Next.js 13+, Tailwind CSS 3.3 and TypeScript 🎉 Inspired by "[Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)".
+> 🔥 Simple Starter for NextJS 13+, Tailwind CSS 3.3 and TypeScript 🎉 Inspired by "[Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)".
 
 I love [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate) project, but there are some libraries I don't want to use, so I decided it was heavy and difficult to use. (Thanks to [Remi Wg](https://github.com/ixartz))
 
@@ -16,6 +16,8 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org/) 
 - 🔥 Type checking TypeScript
 - 💎 Integrate with Tailwind CSS
 - ✅ Strict Mode for TypeScript and React 18
+- 📏 Linter with ESLint (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
+- 💖 Code Formatter with Prettier
 
 ## Requirements
 
@@ -44,27 +46,17 @@ Open [http://localhost:3000](http://localhost:3000) with your favorite browser t
 ```
 .
 ├── README.md                       # README file
-├── __mocks__                       # Mocks for testing
-├── .github                         # GitHub folder
-├── .husky                          # Husky configuration
-├── .storybook                      # Storybook folder
-├── .vscode                         # VSCode configuration
-├── cypress                         # Cypress folder
-├── migrations                      # Database migrations
 ├── public                          # Public assets folder
-├── scripts                         # Scripts folder
 ├── src
 │   ├── app                         # Next JS App (App Router)
 │   ├── components                  # React components
-│   ├── layouts                     # Layouts components
 │   ├── libs                        # 3rd party libraries
-│   ├── models                      # Database models
 │   ├── pages                       # Next JS Pages (page router)
-│   ├── pages.test                  # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
 │   ├── styles                      # Styles folder
-│   ├── templates                   # Templates folder
-│   ├── utils                       # Utilities folder
-│   └── validations                 # Validation schemas
+│   └── utils                 # Utilities folder
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
+
+## Contributions
+Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug. Totally open to any suggestions and improvements.

@@ -1,10 +1,10 @@
-# 🔥 Simple Starter for NextJS 13+, Tailwind CSS 3.3 and TypeScript 🎉
+# Simple Starter & Boilerplate for NextJS 13+, Tailwind CSS 3.3 and TypeScript
 
 > Inspired by "[Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)".
 
 I love [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate) project, but there are some libraries I don't want to use and it was heavy & difficult to use. If you need more libraries such as testing, please use this project. (Thanks to [Remi Wg](https://github.com/ixartz))
 
-I made a simpler and easier Next.js starter & boilerplate for beginners. It's a project with only Next.js, Tailwind CSS and TypeScript. I hope you can use it well 🙇🏻‍♂️
+I made a simpler Next.js starter & boilerplate for beginners. It's a project with only Next.js, Tailwind CSS and TypeScript. I hope you can use it well 🙇🏻‍♂️
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org/) project.
 

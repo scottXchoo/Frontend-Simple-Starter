@@ -9,12 +9,13 @@ I made a simpler Next.js starter & boilerplate for beginners. It's a project wit
 Clone this project and use it to create your own [Next.js](https://nextjs.org/) project.
 
 ## Features
-**"Developer experience first"**
+### **"Developer experience first"**
 
 - ⚡ Next.js with App Router and Page Router support
 - 🔥 Type checking TypeScript
 - 💎 Integrate with Tailwind CSS
 - ✅ Strict Mode for TypeScript and React 18
+- 🗂️ Folder Structure inspired by [Naver](https://recruit.navercorp.com/), [Toss](https://toss.im/career), [Kakao](https://careers.kakao.com/index) etc
 - 📏 Linter with ESLint (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
 - 💖 Code Formatter with Prettier
 
